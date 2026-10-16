@@ -1,0 +1,1604 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-secondary-fixed-variant": "#004e5c", "error-container": "#93000a", "secondary-fixed-dim": "#4cd7f6", "on-primary": "#3c0091", "surface-container-lowest": "#0d0d16", "tertiary-fixed-dim": "#ffb0cd", "surface-variant": "#34343d", "on-primary-fixed-variant": "#5516be", "outline-variant": "#494454", "primary-fixed": "#e9ddff", "on-primary-fixed": "#23005c", "on-surface": "#e4e1ed", "on-error": "#690005", "on-background": "#e4e1ed", "surface-dim": "#13131b", "on-error-container": "#ffdad6", "on-secondary-container": "#00424e", "surface-tint": "#d0bcff", "surface-bright": "#393842", "on-tertiary": "#640039", "tertiary": "#ffb0cd", "on-tertiary-fixed": "#3e0022", "inverse-on-surface": "#302f39", "outline": "#958ea0", "surface": "#13131b", "secondary": "#4cd7f6", "primary": "#d0bcff", "on-secondary-fixed": "#001f26", "primary-fixed-dim": "#d0bcff", "on-surface-variant": "#cbc3d7", "surface-container-low": "#1b1b23", "on-tertiary-container": "#570032", "on-primary-container": "#340080", "surface-container-highest": "#34343d", "on-tertiary-fixed-variant": "#8c0053", "secondary-container": "#03b5d3", "secondary-fixed": "#acedff", "tertiary-container": "#f751a1", "surface-container-high": "#292932", "primary-container": "#a078ff", "on-secondary": "#003640", "error": "#ffb4ab", "surface-container": "#1f1f27", "inverse-primary": "#6d3bd7", "tertiary-fixed": "#ffd9e4", "background": "#13131b", "inverse-surface": "#e4e1ed" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "margin-desktop": "3rem", "space-md": "1rem", "space-sm": "0.5rem", "margin": "1.5rem", "gutter-lg": "2rem", "margin-mobile": "1rem", "gutter": "1.5rem", "gutter-sm": "0.75rem", "space-lg": "1.5rem", "space-xs": "0.25rem", "space-xl": "2.5rem" }, "fontFamily": { "label-lg": [ "Space Grotesk" ], "display-hero": [ "Space Grotesk" ], "label-sm": [ "Space Grotesk" ], "display-hero-mobile": [ "Space Grotesk" ], "headline-md": [ "Space Grotesk" ], "body-lg": [ "Inter" ], "headline-lg-mobile": [ "Space Grotesk" ], "body-md": [ "Inter" ], "body-sm": [ "Inter" ], "headline-sm": [ "Space Grotesk" ], "label-md": [ "Space Grotesk" ], "headline-lg": [ "Space Grotesk" ] }, "fontSize": { "label-lg": [ "14px", { "lineHeight": "18px", "letterSpacing": "0.06em", "fontWeight": "600" } ], "display-hero": [ "56px", { "lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "label-sm": [ "10px", { "lineHeight": "14px", "letterSpacing": "0.1em", "fontWeight": "700" } ], "display-hero-mobile": [ "36px", { "lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "700" } ], "headline-md": [ "24px", { "lineHeight": "32px", "letterSpacing": "-0.005em", "fontWeight": "600" } ], "body-lg": [ "16px", { "lineHeight": "26px", "letterSpacing": "0em", "fontWeight": "400" } ], "headline-lg-mobile": [ "26px", { "lineHeight": "32px", "letterSpacing": "0em", "fontWeight": "700" } ], "body-md": [ "14px", { "lineHeight": "22px", "letterSpacing": "0.005em", "fontWeight": "400" } ], "body-sm": [ "12px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "400" } ], "headline-sm": [ "18px", { "lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "600" } ], "label-md": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.08em", "fontWeight": "600" } ], "headline-lg": [ "32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "700" } ] } } } };</script></head><body class="bg-background font-body-md text-on-surface min-h-screen selection:bg-primary-container selection:text-on-primary-container"><header class="fixed top-0 w-full z-50 bg-surface-container-lowest/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 w-full px-gutter flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-lg flex-shrink-0"><a class="flex items-center gap-space-sm" data-path="all-games" href="#"><img alt="GameZone Pro Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1V0qmhem_XAQphtigehfGV8ekvRhErd1ZZV-ShEp3Z1JYdNZcTYvvQFpOx1H2zxyuaMxgcczoXpqcYCc02ZwACzg5s346uQ_I20uDEtSBbjRv0cHtGMwnQIPC76Og4Xl5GXsd6HTiKgFZbYDYc-vbnnSa-XAKPZrsP4QLovirCeBEfCnZ3BM1bVIaelBe-vl0XAXwiRNMmV8DjJrY4xXb3_3-6qAHDk69DcDK2RFOpBG_5GvDqgO9VVGCjW"/><span class="font-headline-sm text-headline-sm text-on-surface uppercase tracking-wider">GameZone <span class="text-secondary">Pro</span></span></a><div class="hidden xl:flex items-center gap-space-xs px-space-sm py-space-xs rounded-full bg-surface-container-low"><span class="w-2 h-2 rounded-full bg-secondary shadow-[0_0_8px_rgba(76,215,246,0.8)] animate-pulse"></span><span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">14,892 Online</span></div></div><div class="hidden lg:flex items-center flex-1 max-w-md mx-space-md"><div class="w-full flex items-center bg-surface-container-low px-space-md py-space-xs rounded-xl shadow-[inset_0_0_12px_rgba(3,181,211,0.06)]"><span class="material-symbols-outlined text-outline text-[20px] mr-space-sm">search</span><input class="w-full bg-transparent font-body-sm text-body-sm text-on-surface placeholder:text-outline focus:outline-none" placeholder="Search titles, arenas, telemetry..." type="text"/><span class="font-label-sm text-label-sm px-space-xs py-0.5 rounded bg-surface-variant text-on-surface-variant flex items-center ml-space-sm">Ctrl + K</span></div></div><nav class="hidden md:flex items-center gap-space-xs" data-active-classes="bg-primary-container text-on-primary-container rounded-lg"><a aria-current="page" class="px-space-md py-space-sm font-label-md transition-colors bg-primary-container text-on-primary-container rounded-lg" data-path="all-games" href="#">All Games</a><a class="px-space-md py-space-sm font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" data-path="playable-mini-games" href="#">Playable Mini-Games</a><a class="px-space-md py-space-sm font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" data-path="favorites" href="#">Favorites</a><a class="px-space-md py-space-sm font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors flex items-center gap-space-xs" data-path="leaderboards" href="#">Leaderboards<span class="font-label-sm text-label-sm px-1.5 py-0.5 rounded bg-surface-container-high text-tertiary uppercase">Soon</span></a></nav><div class="flex items-center gap-space-md flex-shrink-0"><button class="relative p-space-sm rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors"><span class="material-symbols-outlined text-[20px]">notifications</span><span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-tertiary-container shadow-[0_0_8px_rgba(247,81,161,0.8)]"></span></button><a class="p-space-sm rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors" data-path="settings" href="#"><span class="material-symbols-outlined text-[20px]">settings</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center cursor-pointer hover:opacity-90 transition-opacity"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-background"><div class="flex flex-col w-full">
+<!-- SECTION 1: HERO SHOWCASE -->
+<section class="relative w-full -mt-20 pt-28 pb-16 px-gutter bg-surface-container-lowest overflow-hidden">
+<!-- Atmospheric Ambient Blooms -->
+<div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[720px] h-[380px] bg-primary/10 rounded-full blur-[140px] pointer-events-none"></div>
+<div class="absolute top-1/3 left-1/4 w-[420px] h-[280px] bg-secondary/15 rounded-full blur-[120px] pointer-events-none"></div>
+<div class="absolute top-10 right-10 w-[300px] h-[300px] bg-tertiary-container/10 rounded-full blur-[100px] pointer-events-none"></div>
+<div class="relative max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Left Column: Title & CTAs -->
+<div class="lg:col-span-7 flex flex-col items-start gap-space-md">
+<!-- Live Telemetry Pill -->
+<div class="inline-flex items-center gap-space-xs px-space-md py-1.5 rounded-full bg-surface-container-low shadow-sm">
+<span class="w-2 h-2 rounded-full bg-secondary shadow-[0_0_10px_rgba(76,215,246,0.9)] animate-ping"></span>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">TACTICAL PROTOCOL V4.2 ACTIVE</span>
+<span class="w-1 h-3 bg-surface-variant mx-1"></span>
+<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-tertiary">star</span> 4.9 PRO SCORE
+          </span>
+<span class="w-1 h-3 bg-surface-variant mx-1"></span>
+<span class="font-label-sm text-label-sm text-primary uppercase">18.2K READY</span>
+</div>
+<!-- Hero Headline -->
+<div class="space-y-space-xs">
+<p class="font-label-lg text-label-lg text-secondary uppercase tracking-[0.2em]">DIRECT NEURAL RUNTIME</p>
+<h1 class="font-display-hero text-display-hero text-on-surface uppercase tracking-tight">
+            NEO KINETIC <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-tertiary">ARENA</span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+            Zero-install browser esports and instant playable arcade chambers. Low-latency, deterministic canvas mechanics calibrated for competitive precision.
+          </p>
+</div>
+<!-- Platform Feature Pills -->
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-sm w-full pt-space-xs">
+<div class="p-space-sm rounded-lg bg-surface-container-low/80 backdrop-blur-md flex items-center gap-space-xs shadow-sm">
+<span class="material-symbols-outlined text-secondary text-[20px]">bolt</span>
+<span class="font-label-sm text-label-sm text-on-surface uppercase">4 Mini-Chambers</span>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low/80 backdrop-blur-md flex items-center gap-space-xs shadow-sm">
+<span class="material-symbols-outlined text-primary text-[20px]">speed</span>
+<span class="font-label-sm text-label-sm text-on-surface uppercase">0ms WebGL Lag</span>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low/80 backdrop-blur-md flex items-center gap-space-xs shadow-sm">
+<span class="material-symbols-outlined text-tertiary text-[20px]">military_tech</span>
+<span class="font-label-sm text-label-sm text-on-surface uppercase">Local Records</span>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low/80 backdrop-blur-md flex items-center gap-space-xs shadow-sm">
+<span class="material-symbols-outlined text-secondary-container text-[20px]">sports_esports</span>
+<span class="font-label-sm text-label-sm text-on-surface uppercase">Direct Input</span>
+</div>
+</div>
+<!-- Action Buttons -->
+<div class="flex flex-wrap items-center gap-space-md pt-space-sm">
+<button class="px-space-lg py-space-sm rounded-lg bg-primary-container text-on-primary-container font-headline-sm text-headline-sm hover:scale-[1.02] shadow-[0_0_24px_rgba(160,120,255,0.4)] transition-all flex items-center gap-space-xs group" onclick="window.gameHub.openGame('snake')">
+<span class="material-symbols-outlined text-[22px] group-hover:rotate-45 transition-transform">play_arrow</span>
+<span>LAUNCH NEON SNAKE</span>
+</button>
+<a class="px-space-md py-space-sm rounded-lg bg-surface-container-high text-on-surface font-label-lg text-label-lg hover:bg-surface-variant transition-colors flex items-center gap-space-xs shadow-sm" href="#interactive-chambers">
+<span class="material-symbols-outlined text-[18px] text-secondary">grid_view</span>
+<span>EXPLORE MINI-GAMES</span>
+</a>
+<button class="p-space-sm rounded-lg bg-surface-container-low text-on-surface-variant hover:text-tertiary transition-colors shadow-sm" id="heroFavToggle" onclick="window.gameHub.toggleHeroFavorite()" title="Bookmark Chamber">
+<span class="material-symbols-outlined text-[20px]">favorite_border</span>
+</button>
+</div>
+</div>
+<!-- Right Column: Visual Telemetry Card -->
+<div class="lg:col-span-5 relative mt-8 lg:mt-0">
+<div class="relative w-full rounded-xl overflow-hidden bg-surface-container-low shadow-2xl p-space-md space-y-space-md">
+<!-- Top Telemetry Ribbon -->
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="font-label-sm text-label-sm text-secondary uppercase">CHAMBER 01</span>
+<span class="text-outline-variant">•</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">SYNTH-PULSE 60FPS</span>
+</div>
+<div class="px-2 py-0.5 rounded bg-surface-container font-label-sm text-label-sm text-primary uppercase tracking-wider">
+              ONLINE
+            </div>
+</div>
+<!-- Hero Graphic Canvas Preview -->
+<div class="relative aspect-video w-full rounded-lg overflow-hidden bg-surface-container-lowest flex items-center justify-center">
+<div class="absolute inset-0 bg-cover bg-center opacity-85" data-alt="Futuristic neon synthwave gaming cockpit hud showing cybernetic serpent and cyber grid lines in purple and cyan neon tones with high contrast reflection" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAqNCdA8lTYRqIAaXyFGjDa5FTfXJqTz4m4j3xyBDRiE3YsD6xB_ekttNgONU5N1jJkH-AsRiB8Nbu7RX0B-MmdYvK3gbwlvO3qZCaNnKFHGz8nQCV1slD98kSYlDnYXJXz5AuOvRsQ4bjeJ9Iv4ecWunnvblv0hkgSACxsQ-8-AcatejQcRuwjQljFGoNpRQ7VJGHnBTMyNCUyQ05ikeN6hvbOVBzstXTzWJfNoe7V6QwACOchkpSyPg')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-transparent to-transparent"></div>
+<!-- Interactive Play Trigger Overlay -->
+<button class="relative z-10 w-16 h-16 rounded-full bg-primary/90 text-on-primary flex items-center justify-center shadow-[0_0_28px_rgba(208,188,255,0.7)] hover:scale-110 transition-transform" onclick="window.gameHub.openGame('snake')">
+<span class="material-symbols-outlined text-[32px]">play_arrow</span>
+</button>
+<div class="absolute bottom-3 left-3 z-10 flex items-center gap-space-xs font-label-sm text-label-sm text-on-surface">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span>SERPENT PULSE // READY TO RUN</span>
+</div>
+</div>
+<!-- Real-Time Metrics -->
+<div class="grid grid-cols-3 gap-space-sm pt-space-xs">
+<div class="p-space-sm rounded bg-surface-container flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">FRAME TIME</span>
+<span class="font-headline-sm text-headline-sm text-secondary">16.6ms</span>
+</div>
+<div class="p-space-sm rounded bg-surface-container flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">CLIENT CACHE</span>
+<span class="font-headline-sm text-headline-sm text-primary">PERSIST</span>
+</div>
+<div class="p-space-sm rounded bg-surface-container flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">SAVED FAVS</span>
+<span class="font-headline-sm text-headline-sm text-tertiary" id="headerFavCount">0</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 2: CATEGORY FILTER & LIVE SEARCH -->
+<section class="w-full px-gutter py-space-lg bg-surface-container-lowest">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row items-stretch md:items-center justify-between gap-space-md">
+<!-- Category Tabs -->
+<div class="flex items-center gap-space-xs overflow-x-auto pb-space-xs md:pb-0 scrollbar-none" id="categoryChips">
+<button class="cat-pill active px-space-md py-space-xs rounded-lg font-label-md text-label-md uppercase tracking-wider bg-primary-container text-on-primary-container shadow-sm transition-all whitespace-nowrap" data-cat="all" onclick="window.gameHub.setCategory('all')">
+          All Chambers
+        </button>
+<button class="cat-pill px-space-md py-space-xs rounded-lg font-label-md text-label-md uppercase tracking-wider bg-surface-container-high text-on-surface-variant hover:text-on-surface hover:bg-surface-variant transition-all whitespace-nowrap" data-cat="instant" onclick="window.gameHub.setCategory('instant')">
+          Instant Playable (4)
+        </button>
+<button class="cat-pill px-space-md py-space-xs rounded-lg font-label-md text-label-md uppercase tracking-wider bg-surface-container-high text-on-surface-variant hover:text-on-surface hover:bg-surface-variant transition-all whitespace-nowrap" data-cat="reflex" onclick="window.gameHub.setCategory('reflex')">
+          Reflex Arcade
+        </button>
+<button class="cat-pill px-space-md py-space-xs rounded-lg font-label-md text-label-md uppercase tracking-wider bg-surface-container-high text-on-surface-variant hover:text-on-surface hover:bg-surface-variant transition-all whitespace-nowrap" data-cat="logic" onclick="window.gameHub.setCategory('logic')">
+          Logic &amp; Mind
+        </button>
+<button class="cat-pill px-space-md py-space-xs rounded-lg font-label-md text-label-md uppercase tracking-wider bg-surface-container-high text-on-surface-variant hover:text-on-surface hover:bg-surface-variant transition-all whitespace-nowrap" data-cat="action" onclick="window.gameHub.setCategory('action')">
+          Action Arena
+        </button>
+<button class="cat-pill px-space-md py-space-xs rounded-lg font-label-md text-label-md uppercase tracking-wider bg-surface-container-high text-tertiary hover:bg-surface-variant transition-all flex items-center gap-1 whitespace-nowrap" data-cat="favorites" onclick="window.gameHub.setCategory('favorites')">
+<span class="material-symbols-outlined text-[16px]">favorite</span> Saved Favorites
+        </button>
+</div>
+<!-- Search & Sort Controls -->
+<div class="flex items-center gap-space-sm flex-shrink-0">
+<div class="relative w-full md:w-64">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-[18px]">search</span>
+<input class="w-full bg-surface-container-low text-on-surface font-body-sm text-body-sm pl-9 pr-3 py-2 rounded-lg placeholder:text-outline focus:outline-none shadow-inner" id="gameSearchInput" oninput="window.gameHub.onSearchInput(event)" placeholder="Filter title or tag..." type="text"/>
+</div>
+<select class="bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider px-3 py-2 rounded-lg focus:outline-none cursor-pointer" id="gameSortSelect" onchange="window.gameHub.onSortChange(event)">
+<option value="popular">Most Popular</option>
+<option value="ranked">Top Ranked</option>
+<option value="newest">Newest Arrivals</option>
+</select>
+</div>
+</div>
+</section>
+<!-- SECTION 3: 4 INSTANT PLAYABLE MINI-GAMES -->
+<section class="w-full px-gutter py-space-xl bg-surface" id="interactive-chambers">
+<div class="max-w-7xl mx-auto space-y-space-lg">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm">
+<div>
+<div class="flex items-center gap-space-xs text-secondary font-label-sm text-label-sm uppercase tracking-widest mb-1">
+<span class="w-2 h-2 rounded-full bg-secondary shadow-[0_0_8px_rgba(76,215,246,0.8)]"></span>
+            ZERO INSTALLATION RUNTIME
+          </div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface uppercase">Instant Playable Chambers</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          Execute standalone simulated minigames natively inside your terminal. Complete scores auto-sync to local persistent storage.
+        </p>
+</div>
+<!-- 4 Playable Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter" id="playableGamesGrid">
+<!-- Game 1: Cyber Serpent Pulse -->
+<div class="game-item-card group rounded-xl bg-surface-container-low p-space-md flex flex-col justify-between hover:bg-surface-container transition-all hover:-translate-y-1 shadow-lg" data-game-id="snake" data-genre="reflex" data-playable="true">
+<div class="space-y-space-sm">
+<div class="relative w-full aspect-video rounded-lg overflow-hidden bg-surface-container-lowest">
+<div class="absolute inset-0 bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Neon grid matrix snake arcade chamber glowing in electric cyan and magenta cyber trails against dark space backdrop" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAyQrUBRk8yt-fWXP1JlVUq5qcJzi0ZHc_bT1z54uR2R-azT3G0PXeNDc7naKzY83etvjhXoqYK_tHK5G1ZOcAGqHApgvmhriIYNVFhSm3abUN8ICg9GjtoH0w-q8Yshi1rVqbTFZBbygwvPfFCzyAqB-Jm1_2hewue2pmdLdjri9bBBDMklvG8Hja0qK3wQ6NwaDeYau9JD5gJDhfVmLOtMc4SAdBM5MawBCSa_sriyFXbSgQZzfMz-g')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low/90 via-transparent to-transparent"></div>
+<span class="absolute top-2 left-2 px-2 py-0.5 rounded bg-secondary-container font-label-sm text-label-sm text-on-secondary-container uppercase font-bold tracking-wider">INSTANT PLAY</span>
+<button class="fav-btn absolute top-2 right-2 w-8 h-8 rounded-full bg-surface-container-lowest/80 text-on-surface-variant hover:text-tertiary flex items-center justify-center transition-colors" onclick="window.gameHub.toggleFavorite('snake', event)">
+<span class="material-symbols-outlined text-[18px]">favorite_border</span>
+</button>
+</div>
+<div>
+<div class="flex items-center justify-between text-secondary font-label-sm text-label-sm uppercase tracking-wider mb-1">
+<span>CANVAS 2D REFLEX</span>
+<span class="flex items-center gap-1 text-primary"><span class="material-symbols-outlined text-[14px]">star</span> 4.9</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface uppercase group-hover:text-secondary transition-colors">Cyber Serpent Pulse</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 line-clamp-2">
+                High-speed directional kinetic feeding loop. Avoid tail collision, devour energy crystals, and climb local records.
+              </p>
+</div>
+</div>
+<div class="pt-space-md flex items-center justify-between">
+<div class="text-on-surface-variant font-label-sm text-label-sm">
+              BEST: <span class="text-secondary font-bold" id="card-score-snake">0</span>
+</div>
+<button class="px-space-md py-1.5 rounded-lg bg-primary-container text-on-primary-container font-label-md text-label-md hover:bg-primary transition-colors flex items-center gap-1" onclick="window.gameHub.openGame('snake')">
+<span class="material-symbols-outlined text-[16px]">play_circle</span> PLAY NOW
+            </button>
+</div>
+</div>
+<!-- Game 2: Grid Tactics Matrix -->
+<div class="game-item-card group rounded-xl bg-surface-container-low p-space-md flex flex-col justify-between hover:bg-surface-container transition-all hover:-translate-y-1 shadow-lg" data-game-id="tictactoe" data-genre="logic" data-playable="true">
+<div class="space-y-space-sm">
+<div class="relative w-full aspect-video rounded-lg overflow-hidden bg-surface-container-lowest">
+<div class="absolute inset-0 bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Holographic neon tic-tac-toe battle matrix with glowing violet X and electric cyan O geometric cyber grid" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA0gMueN7nhA30vN94iL-LvrtKhwypV4B2dUdRGBt0_no2Ztj4pBsbbi4X-ri1jijat0ZngIUjic1OeSoEmoxjgTzj_yJGzioWi5mkKR-33EHXTpq09BJRkeqp6mw6Y4As9fb_KTSjvWzvCO5MBu6ZVD-Wd_qlmWRZYkSa7ObVSefdOV6f6y_81RHZ5CDDZLHcG8LQIo2piH6fdUmZsZTZ_SfKbZmbQD2zoUEiHEpcKCl_zFafk9dpCvg')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low/90 via-transparent to-transparent"></div>
+<span class="absolute top-2 left-2 px-2 py-0.5 rounded bg-secondary-container font-label-sm text-label-sm text-on-secondary-container uppercase font-bold tracking-wider">INSTANT PLAY</span>
+<button class="fav-btn absolute top-2 right-2 w-8 h-8 rounded-full bg-surface-container-lowest/80 text-on-surface-variant hover:text-tertiary flex items-center justify-center transition-colors" onclick="window.gameHub.toggleFavorite('tictactoe', event)">
+<span class="material-symbols-outlined text-[18px]">favorite_border</span>
+</button>
+</div>
+<div>
+<div class="flex items-center justify-between text-secondary font-label-sm text-label-sm uppercase tracking-wider mb-1">
+<span>BOT MATRIX AI</span>
+<span class="flex items-center gap-1 text-primary"><span class="material-symbols-outlined text-[14px]">star</span> 4.8</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface uppercase group-hover:text-secondary transition-colors">Grid Tactics Matrix</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 line-clamp-2">
+                Neon 3x3 tactical algorithmic duel. Player quantum nodes vs Cybernetic Smart Bot with dynamic neon line verification.
+              </p>
+</div>
+</div>
+<div class="pt-space-md flex items-center justify-between">
+<div class="text-on-surface-variant font-label-sm text-label-sm">
+              WINS: <span class="text-secondary font-bold" id="card-score-tictactoe">0</span>
+</div>
+<button class="px-space-md py-1.5 rounded-lg bg-primary-container text-on-primary-container font-label-md text-label-md hover:bg-primary transition-colors flex items-center gap-1" onclick="window.gameHub.openGame('tictactoe')">
+<span class="material-symbols-outlined text-[16px]">play_circle</span> PLAY NOW
+            </button>
+</div>
+</div>
+<!-- Game 3: Quantum Memory Sync -->
+<div class="game-item-card group rounded-xl bg-surface-container-low p-space-md flex flex-col justify-between hover:bg-surface-container transition-all hover:-translate-y-1 shadow-lg" data-game-id="memory" data-genre="logic" data-playable="true">
+<div class="space-y-space-sm">
+<div class="relative w-full aspect-video rounded-lg overflow-hidden bg-surface-container-lowest">
+<div class="absolute inset-0 bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Futuristic cybernetic memory cards with quantum glyphs glowing in purple and turquoise colors in 4x4 array" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuARfxOoHyCtmLbQqw3uMqpZerqKoyc9aUWzN_ymat72CKCnPdP3KwYAjIVXUGa_DY0hXGvWMWVyfih-KJiZCrQRFAYZojLK2rml1-sO_LUJn7sYSeCoJe1s7CU9UuGwmKmko7-or-wLWV8oEY3yCS2xqatlW4rZVnk6DJbbu55YF4s4en6ZNVouP2AJlP0B0a9mxcN9XE5pAUp4RfJXpgCXbZj7kXR62KS-OTAwbACOiYvGTX1n_mSr3w')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low/90 via-transparent to-transparent"></div>
+<span class="absolute top-2 left-2 px-2 py-0.5 rounded bg-secondary-container font-label-sm text-label-sm text-on-secondary-container uppercase font-bold tracking-wider">INSTANT PLAY</span>
+<button class="fav-btn absolute top-2 right-2 w-8 h-8 rounded-full bg-surface-container-lowest/80 text-on-surface-variant hover:text-tertiary flex items-center justify-center transition-colors" onclick="window.gameHub.toggleFavorite('memory', event)">
+<span class="material-symbols-outlined text-[18px]">favorite_border</span>
+</button>
+</div>
+<div>
+<div class="flex items-center justify-between text-secondary font-label-sm text-label-sm uppercase tracking-wider mb-1">
+<span>SYNAPSE MEMORY</span>
+<span class="flex items-center gap-1 text-primary"><span class="material-symbols-outlined text-[14px]">star</span> 4.7</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface uppercase group-hover:text-secondary transition-colors">Quantum Memory Sync</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 line-clamp-2">
+                16-tile neural cache matching matrix. Memorize synaptic runes under countdown tension to verify cognitive bandwidth.
+              </p>
+</div>
+</div>
+<div class="pt-space-md flex items-center justify-between">
+<div class="text-on-surface-variant font-label-sm text-label-sm">
+              LEAST MOVES: <span class="text-secondary font-bold" id="card-score-memory">--</span>
+</div>
+<button class="px-space-md py-1.5 rounded-lg bg-primary-container text-on-primary-container font-label-md text-label-md hover:bg-primary transition-colors flex items-center gap-1" onclick="window.gameHub.openGame('memory')">
+<span class="material-symbols-outlined text-[16px]">play_circle</span> PLAY NOW
+            </button>
+</div>
+</div>
+<!-- Game 4: Cyber Clash RPS -->
+<div class="game-item-card group rounded-xl bg-surface-container-low p-space-md flex flex-col justify-between hover:bg-surface-container transition-all hover:-translate-y-1 shadow-lg" data-game-id="rps" data-genre="action" data-playable="true">
+<div class="space-y-space-sm">
+<div class="relative w-full aspect-video rounded-lg overflow-hidden bg-surface-container-lowest">
+<div class="absolute inset-0 bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Mechanical cyborg fists, laser shield barrier, and glowing plasma energy blade colliding in high adrenaline cyber arena duel" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCK2iQ5piePcFaHWY11dXIyvR0yrrJy9L2u7PNWlOfyKtwyRYyTXP1qrpugKmDRAhgZAEfSUVd3Vdk7W_yghCAY58ML-ZAug0Ymf6jUdGdKStE0TXvInykweuakfX49ZBcFt7nrd-HdCSg3EVTX7sZTUrIGocdhOIP9NERad-DdG_23GbHCyDUJ6_tHYrr8fW86MIuJXIH2DDtnKOmd3kCK82Tm00OwFXKsfkBAt2OejhoE-qJqft4buw')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low/90 via-transparent to-transparent"></div>
+<span class="absolute top-2 left-2 px-2 py-0.5 rounded bg-secondary-container font-label-sm text-label-sm text-on-secondary-container uppercase font-bold tracking-wider">INSTANT PLAY</span>
+<button class="fav-btn absolute top-2 right-2 w-8 h-8 rounded-full bg-surface-container-lowest/80 text-on-surface-variant hover:text-tertiary flex items-center justify-center transition-colors" onclick="window.gameHub.toggleFavorite('rps', event)">
+<span class="material-symbols-outlined text-[18px]">favorite_border</span>
+</button>
+</div>
+<div>
+<div class="flex items-center justify-between text-secondary font-label-sm text-label-sm uppercase tracking-wider mb-1">
+<span>TACTICAL CLASH</span>
+<span class="flex items-center gap-1 text-primary"><span class="material-symbols-outlined text-[14px]">star</span> 4.9</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface uppercase group-hover:text-secondary transition-colors">Cyber Clash: Fist Shield Blade</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 line-clamp-2">
+                Quantum Rock-Paper-Scissors variant. Predict enemy combatant loadouts and unleash blade, fist, or energy deflect shield.
+              </p>
+</div>
+</div>
+<div class="pt-space-md flex items-center justify-between">
+<div class="text-on-surface-variant font-label-sm text-label-sm">
+              WINS: <span class="text-secondary font-bold" id="card-score-rps">0</span>
+</div>
+<button class="px-space-md py-1.5 rounded-lg bg-primary-container text-on-primary-container font-label-md text-label-md hover:bg-primary transition-colors flex items-center gap-1" onclick="window.gameHub.openGame('rps')">
+<span class="material-symbols-outlined text-[16px]">play_circle</span> PLAY NOW
+            </button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 4: UPCOMING & CURATED TITLES (WISHLIST/COMING SOON ONLY) -->
+<section class="w-full px-gutter py-space-xl bg-surface-container-lowest">
+<div class="max-w-7xl mx-auto space-y-space-lg">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm">
+<div>
+<div class="flex items-center gap-space-xs text-primary font-label-sm text-label-sm uppercase tracking-widest mb-1">
+<span class="w-2 h-2 rounded-full bg-primary shadow-[0_0_8px_rgba(208,188,255,0.8)]"></span>
+            NEXT-GEN SYNDICATE PIPELINE
+          </div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface uppercase">Upcoming &amp; Curated Chambers</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          Titles currently in alpha simulation testing. Pre-register telemetry to secure launch access keys and exclusive loadout skins.
+        </p>
+</div>
+<!-- Curated Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter" id="curatedGamesGrid">
+<!-- Card 1 -->
+<div class="game-item-card rounded-xl bg-surface-container-low p-space-md flex flex-col justify-between hover:bg-surface-container transition-all shadow-md" data-game-id="aerovoid" data-genre="action" data-playable="false">
+<div class="space-y-space-sm">
+<div class="relative w-full aspect-video rounded-lg overflow-hidden bg-surface-container-lowest">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="High speed interstellar starship performing zero-g kinetic drift around asteroid rings with purple plasma thruster plumes" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCyIZqrICTsIUfDekIPmriRAN5it6XU23DiFxl1dW_suauiPYz6hjTiMlCkk4O7NwnzMkkGJu_44Sya5JBjuEOOhUztetpiBbwhU896ZeEUt_Mj-65GsqQ00w-wSw-5i_-irkvK2K5_AcFoexX3Im5HFttn_xDPdPuV2vSRjrX0CHTUp1Bn7ou3RGJlHCHYsNUFO39pqweOidYk9co8hjqX6NtoXLTEVhSsBPsICuiW_BxJeueqO2_MDA')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low/90 via-transparent to-transparent"></div>
+<span class="absolute top-2 left-2 px-2 py-0.5 rounded bg-surface-container font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">COMING SOON</span>
+<button class="fav-btn absolute top-2 right-2 w-8 h-8 rounded-full bg-surface-container-lowest/80 text-on-surface-variant hover:text-tertiary flex items-center justify-center transition-colors" onclick="window.gameHub.toggleFavorite('aerovoid', event)">
+<span class="material-symbols-outlined text-[18px]">favorite_border</span>
+</button>
+</div>
+<div>
+<div class="flex items-center justify-between text-outline font-label-sm text-label-sm uppercase tracking-wider mb-1">
+<span>SIMULATION DRIFT</span>
+<span class="flex items-center gap-1 text-primary"><span class="material-symbols-outlined text-[14px]">star</span> 4.9</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface uppercase">Aero Void: Starship Drift</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                Sub-orbital flight kinematics with real-time solar flare hazards and gravity-well slingshot orbital mechanics.
+              </p>
+</div>
+</div>
+<div class="pt-space-md flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-tertiary uppercase">Q3 2025</span>
+<button class="px-space-md py-1.5 rounded-lg bg-surface-container-high text-on-surface hover:text-secondary font-label-md text-label-md transition-colors flex items-center gap-1" onclick="window.gameHub.wishlistAlert('Aero Void: Starship Drift')">
+<span class="material-symbols-outlined text-[16px]">bookmark_add</span> WISHLIST
+            </button>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="game-item-card rounded-xl bg-surface-container-low p-space-md flex flex-col justify-between hover:bg-surface-container transition-all shadow-md" data-game-id="voxeldungeon" data-genre="action" data-playable="false">
+<div class="space-y-space-sm">
+<div class="relative w-full aspect-video rounded-lg overflow-hidden bg-surface-container-lowest">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="Voxel cyber dungeon crawl illuminated by neon purple crystals and cyan volumetric lighting with dark subterranean robots" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAdzV9elZ2rXLsT9LL3Aou0afDeFaCcqUOHO5GzBUxEd3RzfPtTYo7kOq_AOtxPHe1r_AOttw5X6NXBTtNrJEmXpelnHIhWsczu_Ca5lBRKx_cGGS-TZSQ-auv1DnY_Liussmji2pfaJSLiH2z2y_XGoIZTmlXUDUtRkjBoZT5alXUrdJuyspKIoPu882xUHCWv2MMCnKg9yQJLqE6W4hwRaLWI_JcjEOzP1mUc4jkcx5dIOmVWJtdZsQ')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low/90 via-transparent to-transparent"></div>
+<span class="absolute top-2 left-2 px-2 py-0.5 rounded bg-surface-container font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">WISHLIST ONLY</span>
+<button class="fav-btn absolute top-2 right-2 w-8 h-8 rounded-full bg-surface-container-lowest/80 text-on-surface-variant hover:text-tertiary flex items-center justify-center transition-colors" onclick="window.gameHub.toggleFavorite('voxeldungeon', event)">
+<span class="material-symbols-outlined text-[18px]">favorite_border</span>
+</button>
+</div>
+<div>
+<div class="flex items-center justify-between text-outline font-label-sm text-label-sm uppercase tracking-wider mb-1">
+<span>PROCEDURAL ROGUE</span>
+<span class="flex items-center gap-1 text-primary"><span class="material-symbols-outlined text-[14px]">star</span> 4.7</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface uppercase">Voxel Dungeon Crawl</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                Infinite procedural crypts loaded with neon-core mimics, kinetic rail traps, and modular loot drops.
+              </p>
+</div>
+</div>
+<div class="pt-space-md flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-tertiary uppercase">CLOSED ALPHA</span>
+<button class="px-space-md py-1.5 rounded-lg bg-surface-container-high text-on-surface hover:text-secondary font-label-md text-label-md transition-colors flex items-center gap-1" onclick="window.gameHub.wishlistAlert('Voxel Dungeon Crawl')">
+<span class="material-symbols-outlined text-[16px]">bookmark_add</span> WISHLIST
+            </button>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="game-item-card rounded-xl bg-surface-container-low p-space-md flex flex-col justify-between hover:bg-surface-container transition-all shadow-md" data-game-id="cyberronin" data-genre="action" data-playable="false">
+<div class="space-y-space-sm">
+<div class="relative w-full aspect-video rounded-lg overflow-hidden bg-surface-container-lowest">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="Cybernetic futuristic samurai warrior in high tech armor holding illuminated katana standing on rainy neo tokyo skyscraper rooftop" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA7YPGL3LKMoNx0NjZuJkQ5ITIVX-qVSzU_nt_mDTBEq-pK23XuE1C614M-KbwpFZF0cKHWF9Pg4XNmIcjQl13vook-jDOsMc5xD6fJksUzsHRPsDRV1ZGXKZGa8GW91KB8eDiWax_6Q6TaCoHK_kE-dnJxkkBT5Dn_c3G8oJ6N0RUV2I6MK7xR33zNUy561EtXz-v2hz9XTmMFNBUKaJ6kzZNyR8jZ5lftDJkhbvlBqnt9d-Ea8LXGDg')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low/90 via-transparent to-transparent"></div>
+<span class="absolute top-2 left-2 px-2 py-0.5 rounded bg-surface-container font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">COMING SOON</span>
+<button class="fav-btn absolute top-2 right-2 w-8 h-8 rounded-full bg-surface-container-lowest/80 text-on-surface-variant hover:text-tertiary flex items-center justify-center transition-colors" onclick="window.gameHub.toggleFavorite('cyberronin', event)">
+<span class="material-symbols-outlined text-[18px]">favorite_border</span>
+</button>
+</div>
+<div>
+<div class="flex items-center justify-between text-outline font-label-sm text-label-sm uppercase tracking-wider mb-1">
+<span>TACTICAL HACK/SLASH</span>
+<span class="flex items-center gap-1 text-primary"><span class="material-symbols-outlined text-[14px]">star</span> 5.0</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface uppercase">Cybernetic Ronin</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                Frame-precise sword parrying duels against rogue neural synth bosses in neon-washed rain environments.
+              </p>
+</div>
+</div>
+<div class="pt-space-md flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-tertiary uppercase">Q4 2025</span>
+<button class="px-space-md py-1.5 rounded-lg bg-surface-container-high text-on-surface hover:text-secondary font-label-md text-label-md transition-colors flex items-center gap-1" onclick="window.gameHub.wishlistAlert('Cybernetic Ronin')">
+<span class="material-symbols-outlined text-[16px]">bookmark_add</span> WISHLIST
+            </button>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="game-item-card rounded-xl bg-surface-container-low p-space-md flex flex-col justify-between hover:bg-surface-container transition-all shadow-md" data-game-id="subatomicchess" data-genre="logic" data-playable="false">
+<div class="space-y-space-sm">
+<div class="relative w-full aspect-video rounded-lg overflow-hidden bg-surface-container-lowest">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="Holographic 3D chess pieces rendered as quantum particles and neon laser lattices floating over an obsidian mirror board" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBgEcVHtDydz_m9P26xX69eY6Oedaj4Jw33meptX6zP6gH8AyRI4LUtflALhV3Fmk-7uzNWdmsaM-68CezgkPGSG84MskzBefV0vxr43LZWMX1cDhFlQOCC33Qif1cG6EDQvMdBD1slTA1YMe5LEBqqLqsprW2_hdFXb2Sje-qrfdc6J7caohMWI0NtDylxSYgOMsXNTaSr8NEwLj2P4VvM2n4_R9fc08w9T4iP8iIJr2-aDfRE2-Q5Zg')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low/90 via-transparent to-transparent"></div>
+<span class="absolute top-2 left-2 px-2 py-0.5 rounded bg-surface-container font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">WISHLIST ONLY</span>
+<button class="fav-btn absolute top-2 right-2 w-8 h-8 rounded-full bg-surface-container-lowest/80 text-on-surface-variant hover:text-tertiary flex items-center justify-center transition-colors" onclick="window.gameHub.toggleFavorite('subatomicchess', event)">
+<span class="material-symbols-outlined text-[18px]">favorite_border</span>
+</button>
+</div>
+<div>
+<div class="flex items-center justify-between text-outline font-label-sm text-label-sm uppercase tracking-wider mb-1">
+<span>QUANTUM CHESS</span>
+<span class="flex items-center gap-1 text-primary"><span class="material-symbols-outlined text-[14px]">star</span> 4.8</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface uppercase">Subatomic Chess</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                Quantum superposition pieces with probability wave collapses upon offensive square contestation.
+              </p>
+</div>
+</div>
+<div class="pt-space-md flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-tertiary uppercase">BETA PROTOCOL</span>
+<button class="px-space-md py-1.5 rounded-lg bg-surface-container-high text-on-surface hover:text-secondary font-label-md text-label-md transition-colors flex items-center gap-1" onclick="window.gameHub.wishlistAlert('Subatomic Chess')">
+<span class="material-symbols-outlined text-[16px]">bookmark_add</span> WISHLIST
+            </button>
+</div>
+</div>
+<!-- Card 5 -->
+<div class="game-item-card rounded-xl bg-surface-container-low p-space-md flex flex-col justify-between hover:bg-surface-container transition-all shadow-md" data-game-id="mechstrike" data-genre="action" data-playable="false">
+<div class="space-y-space-sm">
+<div class="relative w-full aspect-video rounded-lg overflow-hidden bg-surface-container-lowest">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="Giant bipedal battle mechs engaged in urban combat in ruined cyber city with glowing particle cannons and heavy ballistic smoke" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD7dz5EG0xhlgG05Fa8ZQU7QBAVuxvKBXlirtF-nNtz0ULtEM4zYOKQa9xAjhbzitLpstn6_wiQVvakcQbnSkZbdc66LO3xilD9IlE8mHDN72UO8ESiUaRH5lGidfqCUavuW6y9RVlKI89Sxvx1qFX5hI7OmPe4z2qBF-nyDQ-HDjYN4CWPhQrsD2Yw7hcUT6LGCqrwOyYrYgABTEMCzTDJyYLcshlpfy9ks0yrA4l0FQF8s_9lU1ooKQ')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low/90 via-transparent to-transparent"></div>
+<span class="absolute top-2 left-2 px-2 py-0.5 rounded bg-surface-container font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">COMING SOON</span>
+<button class="fav-btn absolute top-2 right-2 w-8 h-8 rounded-full bg-surface-container-lowest/80 text-on-surface-variant hover:text-tertiary flex items-center justify-center transition-colors" onclick="window.gameHub.toggleFavorite('mechstrike', event)">
+<span class="material-symbols-outlined text-[18px]">favorite_border</span>
+</button>
+</div>
+<div>
+<div class="flex items-center justify-between text-outline font-label-sm text-label-sm uppercase tracking-wider mb-1">
+<span>ASSAULT SIMULATOR</span>
+<span class="flex items-center gap-1 text-primary"><span class="material-symbols-outlined text-[14px]">star</span> 4.9</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface uppercase">Mech Strike 2150</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                Armored battle suits with custom weapon payload energy capacitors and locational limb damage engines.
+              </p>
+</div>
+</div>
+<div class="pt-space-md flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-tertiary uppercase">Q1 2026</span>
+<button class="px-space-md py-1.5 rounded-lg bg-surface-container-high text-on-surface hover:text-secondary font-label-md text-label-md transition-colors flex items-center gap-1" onclick="window.gameHub.wishlistAlert('Mech Strike 2150')">
+<span class="material-symbols-outlined text-[16px]">bookmark_add</span> WISHLIST
+            </button>
+</div>
+</div>
+<!-- Card 6 -->
+<div class="game-item-card rounded-xl bg-surface-container-low p-space-md flex flex-col justify-between hover:bg-surface-container transition-all shadow-md" data-game-id="neurocipher" data-genre="logic" data-playable="false">
+<div class="space-y-space-sm">
+<div class="relative w-full aspect-video rounded-lg overflow-hidden bg-surface-container-lowest">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="Hacking terminal screen with complex encrypted neon data cascades, binary matrices, and biometric wireframes" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAO6NuEopIAikvxpuJyOf-zL3NUEEy28zZ3i5JyYjWDC_TrViDwFbDhTpdod4tvREOxFxOpnGTfiD8XI_AqXGOn2iaYyHKI0cokmG--31qlxFn40Omch3qLTWglu5N49GSjkaDfz7SY8aGu5FeVdy5CPfQvEdNJztIZ4o_87nxpbmRQ6yFr7Pc0DTCvtuP1xmXfbQzuUDTArqbX_hinu-c7eNX0duGltw8pME7A8mmTA7N85sl74DV13w')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low/90 via-transparent to-transparent"></div>
+<span class="absolute top-2 left-2 px-2 py-0.5 rounded bg-surface-container font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">WISHLIST ONLY</span>
+<button class="fav-btn absolute top-2 right-2 w-8 h-8 rounded-full bg-surface-container-lowest/80 text-on-surface-variant hover:text-tertiary flex items-center justify-center transition-colors" onclick="window.gameHub.toggleFavorite('neurocipher', event)">
+<span class="material-symbols-outlined text-[18px]">favorite_border</span>
+</button>
+</div>
+<div>
+<div class="flex items-center justify-between text-outline font-label-sm text-label-sm uppercase tracking-wider mb-1">
+<span>INTRUSION CRYPTO</span>
+<span class="flex items-center gap-1 text-primary"><span class="material-symbols-outlined text-[14px]">star</span> 4.6</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface uppercase">Neuro Cipher</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                Bypass corporate ice protocols through cryptographic deduction, memory bus routing, and neural frequency hacking.
+              </p>
+</div>
+</div>
+<div class="pt-space-md flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-tertiary uppercase">DEV PROTOCOL</span>
+<button class="px-space-md py-1.5 rounded-lg bg-surface-container-high text-on-surface hover:text-secondary font-label-md text-label-md transition-colors flex items-center gap-1" onclick="window.gameHub.wishlistAlert('Neuro Cipher')">
+<span class="material-symbols-outlined text-[16px]">bookmark_add</span> WISHLIST
+            </button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 5: DEVELOPER BLUEPRINT & STACK SPECIFICATION ACCORDION -->
+<section class="w-full px-gutter py-space-xl bg-surface">
+<div class="max-w-7xl mx-auto space-y-space-md">
+<div class="flex items-center justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">TECHNICAL INTELLIGENCE</span>
+<h2 class="font-headline-md text-headline-md text-on-surface uppercase">Developer Blueprint &amp; System Architecture</h2>
+</div>
+<button class="p-space-sm rounded-lg bg-surface-container-low hover:bg-surface-container text-on-surface flex items-center gap-2" onclick="window.gameHub.toggleAccordion()">
+<span class="font-label-sm text-label-sm uppercase">Toggle Spec</span>
+<span class="material-symbols-outlined text-[20px] transition-transform" id="accordionIcon">expand_more</span>
+</button>
+</div>
+<div class="hidden rounded-xl bg-surface-container-lowest p-space-lg space-y-space-lg shadow-xl" id="blueprintAccordion">
+<!-- Grid Specs -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Col 1 -->
+<div class="p-space-md rounded-lg bg-surface-container-low space-y-space-sm">
+<div class="flex items-center gap-2 text-primary font-label-md text-label-md uppercase">
+<span class="material-symbols-outlined text-[20px]">layers</span> Frontend Core
+            </div>
+<ul class="text-on-surface-variant font-body-sm text-body-sm space-y-1">
+<li>• React 18 + Vite Bundler</li>
+<li>• TypeScript 5.4 Strict Mode</li>
+<li>• Tailwind CSS JIT w/ Theme Tokens</li>
+<li>• HTML5 Canvas 2D + WebGL Contexts</li>
+</ul>
+</div>
+<!-- Col 2 -->
+<div class="p-space-md rounded-lg bg-surface-container-low space-y-space-sm">
+<div class="flex items-center gap-2 text-secondary font-label-md text-label-md uppercase">
+<span class="material-symbols-outlined text-[20px]">database</span> Persistence &amp; State
+            </div>
+<ul class="text-on-surface-variant font-body-sm text-body-sm space-y-1">
+<li>• Zustand Global Client Store</li>
+<li>• LocalStorage Synced Favorites/Records</li>
+<li>• Supabase Realtime Telemetry DB</li>
+<li>• WebSocket Server for Multiplayer</li>
+</ul>
+</div>
+<!-- Col 3 -->
+<div class="p-space-md rounded-lg bg-surface-container-low space-y-space-sm">
+<div class="flex items-center gap-2 text-tertiary font-label-md text-label-md uppercase">
+<span class="material-symbols-outlined text-[20px]">terminal</span> Quick Start CLI
+            </div>
+<div class="bg-surface-container-lowest p-2 rounded font-mono text-[11px] text-secondary leading-relaxed overflow-x-auto">
+              npm create vite@latest gamezone -- --template react-ts<br/>
+              cd gamezone<br/>
+              npm i zustand lucide-react canvas-confetti
+            </div>
+</div>
+</div>
+<div class="pt-space-sm flex flex-col md:flex-row items-start md:items-center justify-between gap-space-sm text-on-surface-variant font-body-sm text-body-sm bg-surface-container-low p-space-md rounded-lg">
+<p>Production readiness: Fully isolated canvas game loops, requestAnimationFrame cycle, deterministic collision logic, and accessible fallback controls.</p>
+<span class="px-space-md py-1 rounded bg-surface-container text-secondary font-label-sm text-label-sm uppercase font-bold whitespace-nowrap">DEPLOYMENT: READY</span>
+</div>
+</div>
+</div>
+</section>
+<!-- DEDICATED FULL-SCREEN GAMEPLAY MODAL CONTAINER -->
+<div class="fixed inset-0 z-50 hidden bg-surface-container-lowest/90 backdrop-blur-2xl flex items-center justify-center p-4" id="gameModal">
+<div class="relative w-full max-w-4xl max-h-[92vh] flex flex-col rounded-2xl bg-surface-container-low shadow-2xl overflow-hidden">
+<!-- Modal Header -->
+<div class="px-space-lg py-space-md bg-surface-container flex items-center justify-between flex-shrink-0">
+<div class="flex items-center gap-space-md">
+<div class="w-3 h-3 rounded-full bg-secondary shadow-[0_0_10px_rgba(76,215,246,0.8)] animate-pulse"></div>
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface uppercase" id="modalGameTitle">Arena Terminal</h3>
+<p class="font-label-sm text-label-sm text-secondary uppercase tracking-widest" id="modalGameSubtitle">Active Chamber Execution</p>
+</div>
+</div>
+<!-- Telemetry Stats & Actions -->
+<div class="flex items-center gap-space-md">
+<div class="hidden sm:flex items-center gap-space-md px-space-md py-1 rounded-lg bg-surface-container-lowest">
+<div class="flex flex-col items-center">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">SCORE</span>
+<span class="font-headline-sm text-headline-sm text-secondary font-bold" id="modalCurrentScore">0</span>
+</div>
+<div class="w-px h-6 bg-surface-variant"></div>
+<div class="flex flex-col items-center">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">BEST</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold" id="modalHighScore">0</span>
+</div>
+</div>
+<button class="p-2 rounded-lg bg-surface-container-high hover:bg-surface-variant text-on-surface transition-colors" onclick="window.gameHub.resetCurrentGame()" title="Reset Simulation">
+<span class="material-symbols-outlined text-[20px]">refresh</span>
+</button>
+<button class="p-2 rounded-lg bg-surface-container-high hover:bg-error-container hover:text-on-error transition-colors" onclick="window.gameHub.closeModal()" title="Exit Terminal">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+</div>
+<!-- Modal Interactive Game Viewport -->
+<div class="flex-1 w-full bg-surface-container-lowest p-space-md flex flex-col items-center justify-center min-h-[460px] overflow-y-auto">
+<!-- 1. Snake Canvas Chamber -->
+<div class="game-chamber-view hidden flex-col items-center justify-center w-full max-w-lg space-y-space-md" id="chamber-snake">
+<div class="relative w-full aspect-square max-w-[400px] bg-surface-dim rounded-xl overflow-hidden shadow-2xl flex items-center justify-center">
+<canvas class="w-full h-full block bg-[#0a0a12]" height="400" id="snakeCanvas" width="400"></canvas>
+<div class="absolute inset-0 bg-surface-container-lowest/85 flex flex-col items-center justify-center gap-space-md p-4 text-center hidden" id="snakeOverlay">
+<span class="material-symbols-outlined text-tertiary text-[48px]">warning</span>
+<h4 class="font-headline-md text-headline-md text-on-surface uppercase">KINETIC OVERLOAD</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Tail collision detected. Terminal record stored.</p>
+<button class="px-space-lg py-2 rounded-lg bg-primary text-on-primary font-headline-sm text-headline-sm uppercase hover:scale-105 transition-transform shadow-[0_0_20px_rgba(208,188,255,0.6)]" onclick="window.gameHub.startSnakeGame()">
+                RE-ENGAGE RUN
+              </button>
+</div>
+</div>
+<!-- Mobile Directional D-Pad Controls -->
+<div class="flex flex-col items-center gap-1 sm:hidden">
+<button class="w-12 h-10 rounded bg-surface-container-high text-on-surface flex items-center justify-center" onclick="window.gameHub.sendSnakeDir(0, -1)"><span class="material-symbols-outlined">arrow_upward</span></button>
+<div class="flex gap-4">
+<button class="w-12 h-10 rounded bg-surface-container-high text-on-surface flex items-center justify-center" onclick="window.gameHub.sendSnakeDir(-1, 0)"><span class="material-symbols-outlined">arrow_back</span></button>
+<button class="w-12 h-10 rounded bg-surface-container-high text-on-surface flex items-center justify-center" onclick="window.gameHub.sendSnakeDir(0, 1)"><span class="material-symbols-outlined">arrow_downward</span></button>
+<button class="w-12 h-10 rounded bg-surface-container-high text-on-surface flex items-center justify-center" onclick="window.gameHub.sendSnakeDir(1, 0)"><span class="material-symbols-outlined">arrow_forward</span></button>
+</div>
+</div>
+</div>
+<!-- 2. Tic-Tac-Toe Chamber -->
+<div class="game-chamber-view hidden flex-col items-center justify-center w-full max-w-md space-y-space-md" id="chamber-tictactoe">
+<div class="flex items-center justify-between w-full px-2">
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-secondary"></span>
+<span class="font-label-sm text-label-sm text-secondary uppercase font-bold">YOU (O - CYAN)</span>
+</div>
+<span class="font-label-md text-label-md text-primary uppercase" id="tttStatus">YOUR TURN</span>
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm text-tertiary uppercase font-bold">SYNTH BOT (X)</span>
+<span class="w-3 h-3 rounded-full bg-tertiary"></span>
+</div>
+</div>
+<div class="grid grid-cols-3 gap-2 w-full max-w-[340px] aspect-square p-2 bg-surface-container-low rounded-xl">
+<button class="ttt-cell aspect-square rounded-lg bg-surface-container-lowest text-4xl font-headline-lg flex items-center justify-center hover:bg-surface-container transition-colors" data-idx="0" onclick="window.gameHub.handleTTTClick(0)"></button>
+<button class="ttt-cell aspect-square rounded-lg bg-surface-container-lowest text-4xl font-headline-lg flex items-center justify-center hover:bg-surface-container transition-colors" data-idx="1" onclick="window.gameHub.handleTTTClick(1)"></button>
+<button class="ttt-cell aspect-square rounded-lg bg-surface-container-lowest text-4xl font-headline-lg flex items-center justify-center hover:bg-surface-container transition-colors" data-idx="2" onclick="window.gameHub.handleTTTClick(2)"></button>
+<button class="ttt-cell aspect-square rounded-lg bg-surface-container-lowest text-4xl font-headline-lg flex items-center justify-center hover:bg-surface-container transition-colors" data-idx="3" onclick="window.gameHub.handleTTTClick(3)"></button>
+<button class="ttt-cell aspect-square rounded-lg bg-surface-container-lowest text-4xl font-headline-lg flex items-center justify-center hover:bg-surface-container transition-colors" data-idx="4" onclick="window.gameHub.handleTTTClick(4)"></button>
+<button class="ttt-cell aspect-square rounded-lg bg-surface-container-lowest text-4xl font-headline-lg flex items-center justify-center hover:bg-surface-container transition-colors" data-idx="5" onclick="window.gameHub.handleTTTClick(5)"></button>
+<button class="ttt-cell aspect-square rounded-lg bg-surface-container-lowest text-4xl font-headline-lg flex items-center justify-center hover:bg-surface-container transition-colors" data-idx="6" onclick="window.gameHub.handleTTTClick(6)"></button>
+<button class="ttt-cell aspect-square rounded-lg bg-surface-container-lowest text-4xl font-headline-lg flex items-center justify-center hover:bg-surface-container transition-colors" data-idx="7" onclick="window.gameHub.handleTTTClick(7)"></button>
+<button class="ttt-cell aspect-square rounded-lg bg-surface-container-lowest text-4xl font-headline-lg flex items-center justify-center hover:bg-surface-container transition-colors" data-idx="8" onclick="window.gameHub.handleTTTClick(8)"></button>
+</div>
+<div class="flex items-center gap-space-lg text-on-surface-variant font-label-sm text-label-sm">
+<span>YOU: <strong class="text-secondary font-bold" id="tttScorePlayer">0</strong></span>
+<span>BOT: <strong class="text-tertiary font-bold" id="tttScoreBot">0</strong></span>
+<span>DRAWS: <strong class="text-outline font-bold" id="tttScoreDraw">0</strong></span>
+</div>
+</div>
+<!-- 3. Memory Match Chamber -->
+<div class="game-chamber-view hidden flex-col items-center justify-center w-full max-w-lg space-y-space-md" id="chamber-memory">
+<div class="flex items-center justify-between w-full px-2 max-w-[420px]">
+<span class="font-label-sm text-label-sm text-secondary uppercase font-bold">MOVES: <strong class="text-on-surface" id="memoryMoves">0</strong></span>
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold">PAIRS MATCHED: <strong class="text-on-surface" id="memoryPairs">0/8</strong></span>
+<span class="font-label-sm text-label-sm text-tertiary uppercase font-bold">TIME: <strong class="text-on-surface" id="memoryTimer">00:00</strong></span>
+</div>
+<div class="grid grid-cols-4 gap-2.5 w-full max-w-[420px] aspect-square p-2 bg-surface-container-low rounded-xl" id="memoryGrid">
+<!-- Dynamic 16 tiles inserted via JS -->
+</div>
+<div class="hidden p-space-sm rounded-lg bg-primary-container text-on-primary-container font-headline-sm text-headline-sm uppercase text-center w-full max-w-[420px]" id="memoryWinBanner">
+            QUANTUM SYNAPSE SYNC COMPLETE!
+          </div>
+</div>
+<!-- 4. Cyber Clash RPS Chamber -->
+<div class="game-chamber-view hidden flex-col items-center justify-center w-full max-w-lg space-y-space-lg" id="chamber-rps">
+<!-- Arena Duel Hologram -->
+<div class="grid grid-cols-2 gap-space-lg w-full max-w-md items-center py-space-md">
+<div class="flex flex-col items-center gap-space-sm p-space-md rounded-xl bg-surface-container-low">
+<span class="font-label-sm text-label-sm text-secondary uppercase font-bold">YOUR LOADOUT</span>
+<div class="w-20 h-20 rounded-xl bg-surface-container-lowest flex items-center justify-center text-4xl shadow-md" id="rpsPlayerDisplay">
+<span class="material-symbols-outlined text-[44px] text-secondary">front_hand</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface uppercase" id="rpsPlayerName">SHIELD</span>
+</div>
+<div class="flex flex-col items-center gap-space-sm p-space-md rounded-xl bg-surface-container-low">
+<span class="font-label-sm text-label-sm text-tertiary uppercase font-bold">AI CYBORG</span>
+<div class="w-20 h-20 rounded-xl bg-surface-container-lowest flex items-center justify-center text-4xl shadow-md" id="rpsBotDisplay">
+<span class="material-symbols-outlined text-[44px] text-tertiary">sports_kabaddi</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface uppercase" id="rpsBotName">SCANNING...</span>
+</div>
+</div>
+<!-- Outcome Announcement -->
+<div class="font-headline-sm text-headline-sm uppercase text-primary tracking-wide text-center h-8" id="rpsResultText">
+            SELECT TACTICAL ENGAGEMENT
+          </div>
+<!-- Action Buttons -->
+<div class="grid grid-cols-3 gap-space-sm w-full max-w-md">
+<button class="p-space-md rounded-xl bg-surface-container-high hover:bg-surface-variant flex flex-col items-center gap-1 hover:scale-105 transition-transform group" onclick="window.gameHub.playRPS('rock')">
+<span class="material-symbols-outlined text-[32px] text-primary group-hover:scale-110 transition-transform">fitness_center</span>
+<span class="font-label-sm text-label-sm uppercase font-bold">KINETIC FIST</span>
+</button>
+<button class="p-space-md rounded-xl bg-surface-container-high hover:bg-surface-variant flex flex-col items-center gap-1 hover:scale-105 transition-transform group" onclick="window.gameHub.playRPS('paper')">
+<span class="material-symbols-outlined text-[32px] text-secondary group-hover:scale-110 transition-transform">shield</span>
+<span class="font-label-sm text-label-sm uppercase font-bold">NEON SHIELD</span>
+</button>
+<button class="p-space-md rounded-xl bg-surface-container-high hover:bg-surface-variant flex flex-col items-center gap-1 hover:scale-105 transition-transform group" onclick="window.gameHub.playRPS('scissors')">
+<span class="material-symbols-outlined text-[32px] text-tertiary group-hover:scale-110 transition-transform">content_cut</span>
+<span class="font-label-sm text-label-sm uppercase font-bold">PLASMA BLADE</span>
+</button>
+</div>
+<!-- Record Tally -->
+<div class="flex items-center gap-space-lg text-on-surface-variant font-label-sm text-label-sm">
+<span>WINS: <strong class="text-secondary font-bold" id="rpsWins">0</strong></span>
+<span>LOSSES: <strong class="text-tertiary font-bold" id="rpsLosses">0</strong></span>
+<span>DRAWS: <strong class="text-outline font-bold" id="rpsDraws">0</strong></span>
+</div>
+</div>
+</div>
+<!-- Modal Footer Telemetry Guidance -->
+<div class="px-space-lg py-space-sm bg-surface-container flex flex-col sm:flex-row items-center justify-between gap-space-xs text-on-surface-variant font-label-sm text-label-sm flex-shrink-0">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-secondary">keyboard</span>
+<span id="modalControlHint">Snake: WASD or Arrow Keys to navigate. Space to restart.</span>
+</div>
+<span class="text-outline">PRESS ESC TO CLOSE TERMINAL</span>
+</div>
+</div>
+</div>
+<!-- Toast Notification System -->
+<div class="fixed bottom-6 right-6 z-50 transform translate-y-24 opacity-0 transition-all duration-300 pointer-events-none px-space-md py- space-sm rounded-lg bg-surface-container-high text-on-surface shadow-2xl flex items-center gap-space-xs" id="toastAlert">
+<span class="material-symbols-outlined text-secondary" id="toastIcon">check_circle</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wide" id="toastMessage">Action Executed</span>
+</div>
+</div>
+<script>
+/**
+ * GameZone Pro - Integrated Gaming Hub Controller & Minigame Engines
+ */
+(function() {
+  const STORAGE_KEYS = {
+    FAVORITES: 'gz_favorites_pro',
+    SCORES: 'gz_scores_pro'
+  };
+
+  // State Management
+  const state = {
+    currentCategory: 'all',
+    searchQuery: '',
+    sortBy: 'popular',
+    activeModalGame: null,
+    favorites: new Set(),
+    scores: {
+      snake: 0,
+      tictactoe: 0,
+      memory: 0,
+      rps: 0
+    }
+  };
+
+  // Minigame Internal State Bags
+  let snake = {
+    gridSize: 20,
+    tileCount: 20,
+    headX: 10,
+    headY: 10,
+    dx: 0,
+    dy: 0,
+    appleX: 15,
+    appleY: 15,
+    trail: [],
+    tail: 4,
+    score: 0,
+    highScore: 0,
+    running: false,
+    loopInterval: null
+  };
+
+  let ttt = {
+    board: Array(9).fill(null),
+    turn: 'player',
+    active: true,
+    wins: 0,
+    losses: 0,
+    draws: 0
+  };
+
+  let memory = {
+    tiles: [],
+    flipped: [],
+    matchedPairs: 0,
+    moves: 0,
+    timer: 0,
+    interval: null,
+    lock: false
+  };
+
+  let rps = {
+    wins: 0,
+    losses: 0,
+    draws: 0
+  };
+
+  // Initialize Hub & Load Persisted Records
+  function initHub() {
+    loadPersistence();
+    updateFavoritesUI();
+    renderScoreboardCards();
+    setupKeyListeners();
+  }
+
+  function loadPersistence() {
+    try {
+      const savedFavs = localStorage.getItem(STORAGE_KEYS.FAVORITES);
+      if (savedFavs) {
+        state.favorites = new Set(JSON.parse(savedFavs));
+      }
+      const savedScores = localStorage.getItem(STORAGE_KEYS.SCORES);
+      if (savedScores) {
+        state.scores = Object.assign(state.scores, JSON.parse(savedScores));
+      }
+    } catch (e) {
+      console.warn('LocalStorage unavailable or locked', e);
+    }
+  }
+
+  function savePersistence() {
+    try {
+      localStorage.setItem(STORAGE_KEYS.FAVORITES, JSON.stringify(Array.from(state.favorites)));
+      localStorage.setItem(STORAGE_KEYS.SCORES, JSON.stringify(state.scores));
+    } catch (e) {
+      console.warn('Error saving to LocalStorage', e);
+    }
+  }
+
+  function renderScoreboardCards() {
+    const sSnake = document.getElementById('card-score-snake');
+    if (sSnake) sSnake.innerText = state.scores.snake;
+
+    const sTTT = document.getElementById('card-score-tictactoe');
+    if (sTTT) sTTT.innerText = state.scores.tictactoe;
+
+    const sMem = document.getElementById('card-score-memory');
+    if (sMem) sMem.innerText = state.scores.memory > 0 ? `${state.scores.memory} moves` : '--';
+
+    const sRps = document.getElementById('card-score-rps');
+    if (sRps) sRps.innerText = state.scores.rps;
+
+    const favTally = document.getElementById('headerFavCount');
+    if (favTally) favTally.innerText = state.favorites.size;
+  }
+
+  // Toast Notifier
+  function showToast(msg, icon = 'info') {
+    const toast = document.getElementById('toastAlert');
+    const msgEl = document.getElementById('toastMessage');
+    const iconEl = document.getElementById('toastIcon');
+    if (!toast) return;
+
+    msgEl.innerText = msg;
+    iconEl.innerText = icon;
+    toast.classList.remove('translate-y-24', 'opacity-0');
+    toast.classList.add('translate-y-0', 'opacity-100');
+
+    setTimeout(() => {
+      toast.classList.add('translate-y-24', 'opacity-0');
+      toast.classList.remove('translate-y-0', 'opacity-100');
+    }, 2800);
+  }
+
+  // Favorite Logic
+  function toggleFavorite(gameId, event) {
+    if (event) event.stopPropagation();
+
+    if (state.favorites.has(gameId)) {
+      state.favorites.delete(gameId);
+      showToast(`Removed from saved favorites`, 'bookmark_remove');
+    } else {
+      state.favorites.add(gameId);
+      showToast(`Added to saved favorites`, 'favorite');
+    }
+
+    savePersistence();
+    updateFavoritesUI();
+    filterGames();
+  }
+
+  function toggleHeroFavorite() {
+    toggleFavorite('snake');
+  }
+
+  function updateFavoritesUI() {
+    document.querySelectorAll('.game-item-card').forEach(card => {
+      const gId = card.getAttribute('data-game-id');
+      const favBtn = card.querySelector('.fav-btn span');
+      if (favBtn) {
+        if (state.favorites.has(gId)) {
+          favBtn.innerText = 'favorite';
+          favBtn.classList.add('text-tertiary');
+          favBtn.style.fontVariationSettings = "'FILL' 1";
+        } else {
+          favBtn.innerText = 'favorite_border';
+          favBtn.classList.remove('text-tertiary');
+          favBtn.style.fontVariationSettings = "'FILL' 0";
+        }
+      }
+    });
+
+    const heroFavBtn = document.querySelector('#heroFavToggle span');
+    if (heroFavBtn) {
+      if (state.favorites.has('snake')) {
+        heroFavBtn.innerText = 'favorite';
+        heroFavBtn.classList.add('text-tertiary');
+        heroFavBtn.style.fontVariationSettings = "'FILL' 1";
+      } else {
+        heroFavBtn.innerText = 'favorite_border';
+        heroFavBtn.classList.remove('text-tertiary');
+        heroFavBtn.style.fontVariationSettings = "'FILL' 0";
+      }
+    }
+
+    const favTally = document.getElementById('headerFavCount');
+    if (favTally) favTally.innerText = state.favorites.size;
+  }
+
+  // Filters & Search
+  function setCategory(cat) {
+    state.currentCategory = cat;
+    document.querySelectorAll('#categoryChips .cat-pill').forEach(btn => {
+      if (btn.getAttribute('data-cat') === cat) {
+        btn.classList.add('bg-primary-container', 'text-on-primary-container');
+        btn.classList.remove('bg-surface-container-high', 'text-on-surface-variant');
+      } else {
+        btn.classList.remove('bg-primary-container', 'text-on-primary-container');
+        btn.classList.add('bg-surface-container-high', 'text-on-surface-variant');
+      }
+    });
+    filterGames();
+  }
+
+  function onSearchInput(e) {
+    state.searchQuery = e.target.value.toLowerCase().trim();
+    filterGames();
+  }
+
+  function onSortChange(e) {
+    state.sortBy = e.target.value;
+    filterGames();
+  }
+
+  function filterGames() {
+    const cards = document.querySelectorAll('.game-item-card');
+
+    cards.forEach(card => {
+      const gId = card.getAttribute('data-game-id');
+      const genre = card.getAttribute('data-genre');
+      const isPlayable = card.getAttribute('data-playable') === 'true';
+      const title = (card.querySelector('h3')?.innerText || '').toLowerCase();
+      const desc = (card.querySelector('p')?.innerText || '').toLowerCase();
+
+      // Check Category
+      let matchesCategory = true;
+      if (state.currentCategory === 'instant') {
+        matchesCategory = isPlayable;
+      } else if (state.currentCategory === 'reflex') {
+        matchesCategory = (genre === 'reflex');
+      } else if (state.currentCategory === 'logic') {
+        matchesCategory = (genre === 'logic');
+      } else if (state.currentCategory === 'action') {
+        matchesCategory = (genre === 'action');
+      } else if (state.currentCategory === 'favorites') {
+        matchesCategory = state.favorites.has(gId);
+      }
+
+      // Check Search Query
+      const matchesSearch = !state.searchQuery || title.includes(state.searchQuery) || desc.includes(state.searchQuery) || genre.includes(state.searchQuery);
+
+      if (matchesCategory && matchesSearch) {
+        card.style.display = 'flex';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
+
+  function wishlistAlert(title) {
+    showToast(`Access key reserved for ${title}!`, 'bookmark_added');
+  }
+
+  function toggleAccordion() {
+    const panel = document.getElementById('blueprintAccordion');
+    const icon = document.getElementById('accordionIcon');
+    if (!panel) return;
+    if (panel.classList.contains('hidden')) {
+      panel.classList.remove('hidden');
+      if (icon) icon.innerText = 'expand_less';
+    } else {
+      panel.classList.add('hidden');
+      if (icon) icon.innerText = 'expand_more';
+    }
+  }
+
+  // GAME MODAL SYSTEM
+  function openGame(gameKey) {
+    state.activeModalGame = gameKey;
+    const modal = document.getElementById('gameModal');
+    if (!modal) return;
+
+    modal.classList.remove('hidden');
+
+    // Hide all chamber views
+    document.querySelectorAll('.game-chamber-view').forEach(view => view.classList.add('hidden'));
+    document.querySelectorAll('.game-chamber-view').forEach(view => view.classList.remove('flex'));
+
+    const titleEl = document.getElementById('modalGameTitle');
+    const subEl = document.getElementById('modalGameSubtitle');
+    const hintEl = document.getElementById('modalControlHint');
+    const scoreCurr = document.getElementById('modalCurrentScore');
+    const scoreBest = document.getElementById('modalHighScore');
+
+    if (gameKey === 'snake') {
+      titleEl.innerText = 'Cyber Serpent Pulse';
+      subEl.innerText = '2D Kinetic Eating Arena // 60FPS Refresh';
+      hintEl.innerText = 'Controls: WASD or Arrow Keys. Devour red energy crystals.';
+      scoreCurr.innerText = '0';
+      scoreBest.innerText = state.scores.snake;
+
+      const chamber = document.getElementById('chamber-snake');
+      chamber.classList.remove('hidden');
+      chamber.classList.add('flex');
+      startSnakeGame();
+    } else if (gameKey === 'tictactoe') {
+      titleEl.innerText = 'Grid Tactics Matrix';
+      subEl.innerText = 'Tactical Node Matrix vs Smart AI';
+      hintEl.innerText = 'Click any square to claim quantum node O. Bot plays X.';
+      scoreCurr.innerText = ttt.wins;
+      scoreBest.innerText = state.scores.tictactoe;
+
+      const chamber = document.getElementById('chamber-tictactoe');
+      chamber.classList.remove('hidden');
+      chamber.classList.add('flex');
+      startTTTGame();
+    } else if (gameKey === 'memory') {
+      titleEl.innerText = 'Quantum Memory Sync';
+      subEl.innerText = 'Synapse Cache Matching Chamber';
+      hintEl.innerText = 'Click tiles to reveal matching neural frequency pairs.';
+      scoreCurr.innerText = '0';
+      scoreBest.innerText = state.scores.memory > 0 ? state.scores.memory : '--';
+
+      const chamber = document.getElementById('chamber-memory');
+      chamber.classList.remove('hidden');
+      chamber.classList.add('flex');
+      startMemoryGame();
+    } else if (gameKey === 'rps') {
+      titleEl.innerText = 'Cyber Clash: Fist Shield Blade';
+      subEl.innerText = 'Predictive Cyborg Duel';
+      hintEl.innerText = 'Select Fist, Shield, or Blade to engage the combatant.';
+      scoreCurr.innerText = rps.wins;
+      scoreBest.innerText = state.scores.rps;
+
+      const chamber = document.getElementById('chamber-rps');
+      chamber.classList.remove('hidden');
+      chamber.classList.add('flex');
+      startRPSGame();
+    }
+  }
+
+  function closeModal() {
+    const modal = document.getElementById('gameModal');
+    if (modal) modal.classList.add('hidden');
+
+    // Tear down any running game intervals
+    if (snake.loopInterval) {
+      clearInterval(snake.loopInterval);
+      snake.loopInterval = null;
+    }
+    if (memory.interval) {
+      clearInterval(memory.interval);
+      memory.interval = null;
+    }
+    state.activeModalGame = null;
+  }
+
+  function resetCurrentGame() {
+    if (state.activeModalGame === 'snake') {
+      startSnakeGame();
+    } else if (state.activeModalGame === 'tictactoe') {
+      startTTTGame();
+    } else if (state.activeModalGame === 'memory') {
+      startMemoryGame();
+    } else if (state.activeModalGame === 'rps') {
+      rps = { wins: 0, losses: 0, draws: 0 };
+      document.getElementById('rpsWins').innerText = '0';
+      document.getElementById('rpsLosses').innerText = '0';
+      document.getElementById('rpsDraws').innerText = '0';
+      document.getElementById('rpsResultText').innerText = 'ARENA CLEARED. SELECT TACTIC.';
+      document.getElementById('rpsPlayerName').innerText = 'IDLE';
+      document.getElementById('rpsBotName').innerText = 'SCANNING...';
+    }
+  }
+
+  // --- GAME 1 ENGINE: SNAKE ---
+  function startSnakeGame() {
+    if (snake.loopInterval) clearInterval(snake.loopInterval);
+
+    snake.headX = 10;
+    snake.headY = 10;
+    snake.dx = 1;
+    snake.dy = 0;
+    snake.trail = [{x: 10, y: 10}];
+    snake.tail = 4;
+    snake.score = 0;
+    snake.running = true;
+
+    document.getElementById('modalCurrentScore').innerText = '0';
+    document.getElementById('modalHighScore').innerText = state.scores.snake;
+    document.getElementById('snakeOverlay').classList.add('hidden');
+
+    spawnApple();
+    snake.loopInterval = setInterval(updateSnake, 100);
+  }
+
+  function spawnApple() {
+    snake.appleX = Math.floor(Math.random() * snake.tileCount);
+    snake.appleY = Math.floor(Math.random() * snake.tileCount);
+    // Don't spawn on snake body
+    for (let segment of snake.trail) {
+      if (segment.x === snake.appleX && segment.y === snake.appleY) {
+        spawnApple();
+        break;
+      }
+    }
+  }
+
+  function sendSnakeDir(x, y) {
+    if (!snake.running) return;
+    // Disallow 180 reverse
+    if (x !== 0 && snake.dx !== -x) {
+      snake.dx = x;
+      snake.dy = 0;
+    } else if (y !== 0 && snake.dy !== -y) {
+      snake.dx = 0;
+      snake.dy = y;
+    }
+  }
+
+  function updateSnake() {
+    if (!snake.running) return;
+
+    snake.headX += snake.dx;
+    snake.headY += snake.dy;
+
+    // Wrap-around borders for fluid arcade flow
+    if (snake.headX < 0) snake.headX = snake.tileCount - 1;
+    if (snake.headX >= snake.tileCount) snake.headX = 0;
+    if (snake.headY < 0) snake.headY = snake.tileCount - 1;
+    if (snake.headY >= snake.tileCount) snake.headY = 0;
+
+    // Check tail self-collision
+    for (let i = 0; i < snake.trail.length; i++) {
+      if (snake.trail[i].x === snake.headX && snake.trail[i].y === snake.headY) {
+        endSnakeGame();
+        return;
+      }
+    }
+
+    snake.trail.push({ x: snake.headX, y: snake.headY });
+    while (snake.trail.length > snake.tail) {
+      snake.trail.shift();
+    }
+
+    // Check Apple Collision
+    if (snake.headX === snake.appleX && snake.headY === snake.appleY) {
+      snake.tail++;
+      snake.score += 10;
+      document.getElementById('modalCurrentScore').innerText = snake.score;
+
+      if (snake.score > state.scores.snake) {
+        state.scores.snake = snake.score;
+        document.getElementById('modalHighScore').innerText = snake.score;
+        savePersistence();
+        renderScoreboardCards();
+      }
+      spawnApple();
+    }
+
+    drawSnake();
+  }
+
+  function drawSnake() {
+    const canvas = document.getElementById('snakeCanvas');
+    if (!canvas) return;
+    const ctx = canvas.getContext('2d');
+    const sz = canvas.width / snake.tileCount;
+
+    // Dark grid background
+    ctx.fillStyle = '#0a0a12';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    // Grid lines (cyber matrix effect)
+    ctx.strokeStyle = 'rgba(76, 215, 246, 0.05)';
+    ctx.lineWidth = 1;
+    for (let i = 0; i < canvas.width; i += sz) {
+      ctx.beginPath();
+      ctx.moveTo(i, 0);
+      ctx.lineTo(i, canvas.height);
+      ctx.stroke();
+      ctx.beginPath();
+      ctx.moveTo(0, i);
+      ctx.lineTo(canvas.width, i);
+      ctx.stroke();
+    }
+
+    // Render Snake Body with Glowing Gradient
+    for (let i = 0; i < snake.trail.length; i++) {
+      const isHead = (i === snake.trail.length - 1);
+      ctx.fillStyle = isHead ? '#4cd7f6' : '#8b5cf6';
+      ctx.shadowColor = isHead ? '#4cd7f6' : '#8b5cf6';
+      ctx.shadowBlur = isHead ? 14 : 6;
+
+      ctx.fillRect(
+        snake.trail[i].x * sz + 1,
+        snake.trail[i].y * sz + 1,
+        sz - 2,
+        sz - 2
+      );
+    }
+
+    // Render Food (Pulsing Magenta Diamond)
+    ctx.fillStyle = '#f751a1';
+    ctx.shadowColor = '#f751a1';
+    ctx.shadowBlur = 12;
+    ctx.beginPath();
+    const cx = snake.appleX * sz + sz / 2;
+    const cy = snake.appleY * sz + sz / 2;
+    const r = (sz / 2) - 3;
+    ctx.arc(cx, cy, r, 0, Math.PI * 2);
+    ctx.fill();
+
+    // Reset shadow
+    ctx.shadowBlur = 0;
+  }
+
+  function endSnakeGame() {
+    snake.running = false;
+    if (snake.loopInterval) clearInterval(snake.loopInterval);
+    document.getElementById('snakeOverlay').classList.remove('hidden');
+  }
+
+  // --- GAME 2 ENGINE: TIC-TAC-TOE ---
+  function startTTTGame() {
+    ttt.board = Array(9).fill(null);
+    ttt.turn = 'player';
+    ttt.active = true;
+    updateTTTUI();
+    document.getElementById('tttStatus').innerText = 'YOUR TURN';
+    document.getElementById('tttStatus').className = 'font-label-md text-label-md text-secondary uppercase';
+  }
+
+  function handleTTTClick(idx) {
+    if (!ttt.active || ttt.board[idx] || ttt.turn !== 'player') return;
+
+    ttt.board[idx] = 'O';
+    updateTTTUI();
+
+    if (checkTTTWinner('O')) {
+      ttt.wins++;
+      ttt.active = false;
+      document.getElementById('tttStatus').innerText = 'VICTORY OVER CYBORG!';
+      document.getElementById('tttStatus').className = 'font-label-md text-label-md text-secondary uppercase font-bold';
+      document.getElementById('tttScorePlayer').innerText = ttt.wins;
+
+      if (ttt.wins > state.scores.tictactoe) {
+        state.scores.tictactoe = ttt.wins;
+        savePersistence();
+        renderScoreboardCards();
+      }
+      document.getElementById('modalCurrentScore').innerText = ttt.wins;
+      return;
+    }
+
+    if (ttt.board.every(cell => cell !== null)) {
+      ttt.draws++;
+      ttt.active = false;
+      document.getElementById('tttStatus').innerText = 'STALEMATE MATRIX TIE';
+      document.getElementById('tttStatus').className = 'font-label-md text-label-md text-outline uppercase';
+      document.getElementById('tttScoreDraw').innerText = ttt.draws;
+      return;
+    }
+
+    // AI Turn
+    ttt.turn = 'bot';
+    document.getElementById('tttStatus').innerText = 'BOT CALCULATING...';
+    document.getElementById('tttStatus').className = 'font-label-md text-label-md text-tertiary uppercase';
+
+    setTimeout(runBotMove, 400);
+  }
+
+  function runBotMove() {
+    if (!ttt.active) return;
+
+    // Smart logic: Check winning move, then blocking move, else center/random
+    let move = getTTTBestMove('X') || getTTTBestMove('O') || getRandomTTTMove();
+
+    if (move !== undefined) {
+      ttt.board[move] = 'X';
+    }
+
+    updateTTTUI();
+
+    if (checkTTTWinner('X')) {
+      ttt.losses++;
+      ttt.active = false;
+      document.getElementById('tttStatus').innerText = 'AI INFILTRATION - DEFEAT';
+      document.getElementById('tttStatus').className = 'font-label-md text-label-md text-tertiary uppercase font-bold';
+      document.getElementById('tttScoreBot').innerText = ttt.losses;
+      return;
+    }
+
+    if (ttt.board.every(cell => cell !== null)) {
+      ttt.draws++;
+      ttt.active = false;
+      document.getElementById('tttStatus').innerText = 'STALEMATE MATRIX TIE';
+      document.getElementById('tttStatus').className = 'font-label-md text-label-md text-outline uppercase';
+      document.getElementById('tttScoreDraw').innerText = ttt.draws;
+      return;
+    }
+
+    ttt.turn = 'player';
+    document.getElementById('tttStatus').innerText = 'YOUR TURN';
+    document.getElementById('tttStatus').className = 'font-label-md text-label-md text-secondary uppercase';
+  }
+
+  function getTTTBestMove(symbol) {
+    const wins = [
+      [0,1,2],[3,4,5],[6,7,8],
+      [0,3,6],[1,4,7],[2,5,8],
+      [0,4,8],[2,4,6]
+    ];
+    for (let combo of wins) {
+      let count = 0;
+      let emptyIdx = null;
+      for (let i of combo) {
+        if (ttt.board[i] === symbol) count++;
+        else if (ttt.board[i] === null) emptyIdx = i;
+      }
+      if (count === 2 && emptyIdx !== null) {
+        return emptyIdx;
+      }
+    }
+    return null;
+  }
+
+  function getRandomTTTMove() {
+    if (ttt.board[4] === null) return 4; // Center square priority
+    const empties = ttt.board.map((v, i) => v === null ? i : null).filter(v => v !== null);
+    return empties[Math.floor(Math.random() * empties.length)];
+  }
+
+  function checkTTTWinner(symbol) {
+    const wins = [
+      [0,1,2],[3,4,5],[6,7,8],
+      [0,3,6],[1,4,7],[2,5,8],
+      [0,4,8],[2,4,6]
+    ];
+    return wins.some(combo => combo.every(idx => ttt.board[idx] === symbol));
+  }
+
+  function updateTTTUI() {
+    const cells = document.querySelectorAll('.ttt-cell');
+    cells.forEach((cell, idx) => {
+      const val = ttt.board[idx];
+      cell.innerHTML = '';
+      if (val === 'O') {
+        cell.innerHTML = '<span class="text-secondary drop-shadow-[0_0_8px_rgba(76,215,246,0.9)]">O</span>';
+      } else if (val === 'X') {
+        cell.innerHTML = '<span class="text-tertiary drop-shadow-[0_0_8px_rgba(247,81,161,0.9)]">✕</span>';
+      }
+    });
+  }
+
+  // --- GAME 3 ENGINE: QUANTUM MEMORY SYNC ---
+  const GLYPH_SET = ['bolt', 'terminal', 'sports_esports', 'shield', 'wifi_tethering', 'rocket_launch', 'memory', 'view_in_ar'];
+
+  function startMemoryGame() {
+    if (memory.interval) clearInterval(memory.interval);
+
+    const deck = [...GLYPH_SET, ...GLYPH_SET];
+    // Fisher-Yates Shuffle
+    for (let i = deck.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [deck[i], deck[j]] = [deck[j], deck[i]];
+    }
+
+    memory.tiles = deck.map((glyph, index) => ({
+      id: index,
+      glyph: glyph,
+      flipped: false,
+      matched: false
+    }));
+
+    memory.flipped = [];
+    memory.matchedPairs = 0;
+    memory.moves = 0;
+    memory.timer = 0;
+    memory.lock = false;
+
+    document.getElementById('memoryMoves').innerText = '0';
+    document.getElementById('memoryPairs').innerText = '0/8';
+    document.getElementById('memoryTimer').innerText = '00:00';
+    document.getElementById('memoryWinBanner').classList.add('hidden');
+
+    renderMemoryGrid();
+
+    memory.interval = setInterval(() => {
+      memory.timer++;
+      const m = String(Math.floor(memory.timer / 60)).padStart(2, '0');
+      const s = String(memory.timer % 60).padStart(2, '0');
+      const timerEl = document.getElementById('memoryTimer');
+      if (timerEl) timerEl.innerText = `${m}:${s}`;
+    }, 1000);
+  }
+
+  function renderMemoryGrid() {
+    const grid = document.getElementById('memoryGrid');
+    if (!grid) return;
+    grid.innerHTML = '';
+
+    memory.tiles.forEach(tile => {
+      const btn = document.createElement('button');
+      btn.className = `aspect-square rounded-lg flex items-center justify-center transition-all duration-300 ${
+        tile.matched
+          ? 'bg-primary/20 text-primary cursor-default'
+          : tile.flipped
+            ? 'bg-surface-container-high text-secondary'
+            : 'bg-surface-container-lowest text-outline hover:bg-surface-variant'
+      }`;
+      btn.onclick = () => onMemoryTileClick(tile.id);
+
+      if (tile.flipped || tile.matched) {
+        btn.innerHTML = `<span class="material-symbols-outlined text-[28px]">${tile.glyph}</span>`;
+      } else {
+        btn.innerHTML = `<span class="material-symbols-outlined text-[18px] opacity-25">lock</span>`;
+      }
+
+      grid.appendChild(btn);
+    });
+  }
+
+  function onMemoryTileClick(id) {
+    if (memory.lock) return;
+    const tile = memory.tiles[id];
+    if (tile.flipped || tile.matched) return;
+
+    tile.flipped = true;
+    memory.flipped.push(tile);
+    renderMemoryGrid();
+
+    if (memory.flipped.length === 2) {
+      memory.moves++;
+      document.getElementById('memoryMoves').innerText = memory.moves;
+      memory.lock = true;
+
+      const [first, second] = memory.flipped;
+      if (first.glyph === second.glyph) {
+        first.matched = true;
+        second.matched = true;
+        memory.matchedPairs++;
+        document.getElementById('memoryPairs').innerText = `${memory.matchedPairs}/8`;
+        memory.flipped = [];
+        memory.lock = false;
+        renderMemoryGrid();
+
+        if (memory.matchedPairs === 8) {
+          endMemoryGame();
+        }
+      } else {
+        setTimeout(() => {
+          first.flipped = false;
+          second.flipped = false;
+          memory.flipped = [];
+          memory.lock = false;
+          renderMemoryGrid();
+        }, 850);
+      }
+    }
+  }
+
+  function endMemoryGame() {
+    if (memory.interval) clearInterval(memory.interval);
+    document.getElementById('memoryWinBanner').classList.remove('hidden');
+
+    // Update Score (least moves record)
+    if (state.scores.memory === 0 || memory.moves < state.scores.memory) {
+      state.scores.memory = memory.moves;
+      savePersistence();
+      renderScoreboardCards();
+      document.getElementById('modalHighScore').innerText = memory.moves;
+    }
+    document.getElementById('modalCurrentScore').innerText = memory.moves;
+  }
+
+  // --- GAME 4 ENGINE: CYBER CLASH RPS ---
+  function startRPSGame() {
+    rps = { wins: 0, losses: 0, draws: 0 };
+    document.getElementById('rpsWins').innerText = '0';
+    document.getElementById('rpsLosses').innerText = '0';
+    document.getElementById('rpsDraws').innerText = '0';
+    document.getElementById('rpsResultText').innerText = 'SELECT TACTICAL ENGAGEMENT';
+  }
+
+  function playRPS(playerChoice) {
+    const choices = ['rock', 'paper', 'scissors'];
+    const botChoice = choices[Math.floor(Math.random() * 3)];
+
+    const glyphMap = {
+      rock: { icon: 'fitness_center', name: 'KINETIC FIST', color: 'text-primary' },
+      paper: { icon: 'shield', name: 'NEON SHIELD', color: 'text-secondary' },
+      scissors: { icon: 'content_cut', name: 'PLASMA BLADE', color: 'text-tertiary' }
+    };
+
+    // Update Player Display
+    const pDisplay = document.getElementById('rpsPlayerDisplay');
+    pDisplay.innerHTML = `<span class="material-symbols-outlined text-[44px] ${glyphMap[playerChoice].color}">${glyphMap[playerChoice].icon}</span>`;
+    document.getElementById('rpsPlayerName').innerText = glyphMap[playerChoice].name;
+
+    // Animate Bot Scan
+    const bDisplay = document.getElementById('rpsBotDisplay');
+    bDisplay.innerHTML = `<span class="material-symbols-outlined text-[44px] text-tertiary animate-spin">sync</span>`;
+    document.getElementById('rpsBotName').innerText = 'ANALYZING...';
+
+    setTimeout(() => {
+      bDisplay.innerHTML = `<span class="material-symbols-outlined text-[44px] ${glyphMap[botChoice].color}">${glyphMap[botChoice].icon}</span>`;
+      document.getElementById('rpsBotName').innerText = glyphMap[botChoice].name;
+
+      evaluateRPS(playerChoice, botChoice);
+    }, 450);
+  }
+
+  function evaluateRPS(p, b) {
+    const resText = document.getElementById('rpsResultText');
+
+    if (p === b) {
+      rps.draws++;
+      resText.innerText = 'NEURAL STALEMATE // DRAW';
+      resText.className = 'font-headline-sm text-headline-sm uppercase text-outline tracking-wide text-center h-8';
+      document.getElementById('rpsDraws').innerText = rps.draws;
+    } else if (
+      (p === 'rock' && b === 'scissors') ||
+      (p === 'paper' && b === 'rock') ||
+      (p === 'scissors' && b === 'paper')
+    ) {
+      rps.wins++;
+      resText.innerText = 'CYBORG NEUTRALIZED // YOU WIN!';
+      resText.className = 'font-headline-sm text-headline-sm uppercase text-secondary tracking-wide text-center h-8 font-bold';
+      document.getElementById('rpsWins').innerText = rps.wins;
+
+      if (rps.wins > state.scores.rps) {
+        state.scores.rps = rps.wins;
+        savePersistence();
+        renderScoreboardCards();
+      }
+      document.getElementById('modalCurrentScore').innerText = rps.wins;
+      document.getElementById('modalHighScore').innerText = state.scores.rps;
+    } else {
+      rps.losses++;
+      resText.innerText = 'SYSTEM OVERRIDDEN // AI WINS ROUND';
+      resText.className = 'font-headline-sm text-headline-sm uppercase text-tertiary tracking-wide text-center h-8';
+      document.getElementById('rpsLosses').innerText = rps.losses;
+    }
+  }
+
+  // Keyboard navigation & controls
+  function setupKeyListeners() {
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        closeModal();
+      }
+
+      if (state.activeModalGame === 'snake') {
+        if (e.key === 'ArrowUp' || e.key === 'w' || e.key === 'W') {
+          e.preventDefault();
+          sendSnakeDir(0, -1);
+        } else if (e.key === 'ArrowDown' || e.key === 's' || e.key === 'S') {
+          e.preventDefault();
+          sendSnakeDir(0, 1);
+        } else if (e.key === 'ArrowLeft' || e.key === 'a' || e.key === 'A') {
+          e.preventDefault();
+          sendSnakeDir(-1, 0);
+        } else if (e.key === 'ArrowRight' || e.key === 'd' || e.key === 'D') {
+          e.preventDefault();
+          sendSnakeDir(1, 0);
+        } else if (e.key === ' ' && !snake.running) {
+          e.preventDefault();
+          startSnakeGame();
+        }
+      }
+    });
+  }
+
+  // Expose methods to global scope
+  window.gameHub = {
+    setCategory,
+    onSearchInput,
+    onSortChange,
+    toggleFavorite,
+    toggleHeroFavorite,
+    openGame,
+    closeModal,
+    resetCurrentGame,
+    startSnakeGame,
+    sendSnakeDir,
+    handleTTTClick,
+    playRPS,
+    wishlistAlert,
+    toggleAccordion
+  };
+
+  // Run on Boot
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initHub);
+  } else {
+    initHub();
+  }
+})();
+</script></main><footer class="w-full bg-surface-container-lowest mt-space-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="w-full px-gutter py-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-gutter mb-space-xl"><div class="lg:col-span-2 space-y-space-md"><div class="flex items-center gap-space-sm"><img alt="GameZone Pro Logo" class="h-7 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1V0qmhem_XAQphtigehfGV8ekvRhErd1ZZV-ShEp3Z1JYdNZcTYvvQFpOx1H2zxyuaMxgcczoXpqcYCc02ZwACzg5s346uQ_I20uDEtSBbjRv0cHtGMwnQIPC76Og4Xl5GXsd6HTiKgFZbYDYc-vbnnSa-XAKPZrsP4QLovirCeBEfCnZ3BM1bVIaelBe-vl0XAXwiRNMmV8DjJrY4xXb3_3-6qAHDk69DcDK2RFOpBG_5GvDqgO9VVGCjW"/><span class="font-headline-sm text-headline-sm text-on-surface uppercase tracking-wider">GameZone <span class="text-secondary">Pro</span></span></div><p class="font-body-sm text-body-sm text-on-surface-variant max-w-sm">High-performance competitive gaming terminal, esports telemetry archives, and low-latency interactive arena experiences engineered for pro-tier athletes.</p><div class="flex items-center gap-space-sm"><span class="px-space-sm py-space-xs rounded bg-surface-container font-label-sm text-label-sm text-secondary">STATUS: OPERATIONAL</span><span class="px-space-sm py-space-xs rounded bg-surface-container font-label-sm text-label-sm text-on-surface-variant">LATENCY: 12ms</span></div></div><div><h4 class="font-label-lg text-label-lg text-on-surface uppercase tracking-wider mb-space-md">Categories</h4><ul class="space-y-space-sm"><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Tactical Shooters</li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Cyberpunk RPGs</li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Instant Arena</li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Speedrun Vaults</li></ul></div><div><h4 class="font-label-lg text-label-lg text-on-surface uppercase tracking-wider mb-space-md">Ecosystem</h4><ul class="space-y-space-sm"><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Community Hub</li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Developer API</li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Discord Broadcast</li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Twitch Streamers</li></ul></div><div><h4 class="font-label-lg text-label-lg text-on-surface uppercase tracking-wider mb-space-md">Support &amp; Intel</h4><ul class="space-y-space-sm"><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Diagnostics &amp; FAQ</li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">System Architecture</li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Fair Play Matrix</li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Terms of Telemetry</li></ul></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md text-on-surface-variant font-body-sm text-body-sm"><p>© 2025 GameZone Pro Syndicate. All tactical operations, titles, and trademarks are property of their respective creators.</p><div class="flex items-center gap-space-md"><span class="font-label-sm text-label-sm text-outline hover:text-secondary cursor-pointer transition-colors">SERVER CLUSTER 04-US</span><span class="font-label-sm text-label-sm text-outline hover:text-secondary cursor-pointer transition-colors">SECURITY ENCRYPTED</span></div></div></div></footer></body></html>
